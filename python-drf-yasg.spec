@@ -24,6 +24,9 @@ BuildRequires:  python3dist(swagger-spec-validator) >= 2.1.0
 BuildRequires:  python3dist(uritemplate) >= 3.0.0
 BuildRequires:  python3dist(sphinx)
 
+# Manually added dependencies so it builds successfully
+BuildRequires:  python3dist(setuptools_scm)
+
 %description
 .. role:: python(code) :language: python drf-yasg - Yet another Swagger
 generator |travis| |nbsp| |codecov| |nbsp| |rtd-badge| |nbsp| |pypi-
